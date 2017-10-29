@@ -1,0 +1,4 @@
+# system.prop for owens
+
+# Display
+ro.sf.lcd_density=320
