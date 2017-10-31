@@ -19,6 +19,8 @@ $(call inherit-product, device/motorola/owens/full_owens.mk)
 TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1280
 
+DEVICE_PACKAGE_OVERLAYS += device/motorola/owens/overlay
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := owens
 PRODUCT_NAME := lineage_owens
